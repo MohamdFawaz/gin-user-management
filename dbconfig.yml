@@ -1,0 +1,7 @@
+development:
+  dialect: mysql
+  datasource: <username>:<password>@tcp(localhost:3306)/<database>?charset=utf8mb4&timeout=10s&parseTime=True
+  dir: migrations
+  table: migrations
+  max_idle_conns: 2
+  max_open_conns: 16
