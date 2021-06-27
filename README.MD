@@ -23,9 +23,6 @@ Make sure you have installed all the following prerequisites on your machine:
 * [GO](https://golang.org/doc/install)
 * [Mysql](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
 
-``` bash
-$ composer require :vendor/:package_name
-```
 ## Install and Run
  
 To run the application you'll need to create a database and copy `.env.example` file into `.env` and update the DB credentials,
